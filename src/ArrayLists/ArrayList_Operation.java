@@ -4,13 +4,21 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Different_Operation {
+
+
     public static void insert(ArrayList al)
     {
-        System.out.println("Insert values in the ArrayList:");
         Scanner sc = new Scanner(System.in);
+        System.out.println("Insert values in the ArrayList:");
         al.add(sc.nextInt());
         al.add(sc.nextInt());
         System.out.println(al);
+    }
+    public static void delete(ArrayList al)
+    {
+        System.out.println("Enter the number that you wanna to remove:");
+        Scanner sc = new Scanner(System.in);
+        al.remove(sc.nextInt());
     }
 }
 public class ArrayList_Operation
@@ -19,5 +27,6 @@ public class ArrayList_Operation
         ArrayList al = new ArrayList();
         Different_Operation obj = new Different_Operation();
         obj.insert(al);
+        obj.delete(al);
     }
 }
