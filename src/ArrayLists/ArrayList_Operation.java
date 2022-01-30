@@ -34,5 +34,6 @@ public class ArrayList_Operation
         Different_Operation obj = new Different_Operation();
         obj.insert(al);
         obj.delete(al);
+        obj.update(al);
     }
 }
