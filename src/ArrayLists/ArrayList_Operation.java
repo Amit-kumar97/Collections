@@ -20,6 +20,12 @@ class Different_Operation {
         Scanner sc = new Scanner(System.in);
         al.remove(sc.nextInt());
     }
+     public static void update(ArrayList al)
+    {
+        System.out.println("Enter the index and number that you to update to remove:");
+        Scanner sc = new Scanner(System.in);
+        al.set(sc.nextInt(),sc.nextInt());
+    }
 }
 public class ArrayList_Operation
 {
