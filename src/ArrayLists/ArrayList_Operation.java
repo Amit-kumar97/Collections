@@ -37,5 +37,6 @@ public class ArrayList_Operation
         obj.insert(al);
         obj.delete(al);
         obj.update(al);
+        al.clear();
     }
 }
