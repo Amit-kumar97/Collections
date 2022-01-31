@@ -20,4 +20,11 @@ public class linkedlist01
         }
         System.out.println();
     }
+    public static void main(String[] args) {
+       // System.out.println("linkedlist");
+        Node<Integer> node1 = new Node<Integer>(10);
+        Node<Integer> node2 = new Node<Integer>(20);
+        node1.next = node2;
+        print(node1);
+    }
 }
