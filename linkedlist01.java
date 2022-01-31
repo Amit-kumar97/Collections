@@ -1,3 +1,5 @@
+package LinkedLists;
+
 class Node<T>
 {
     T data;
