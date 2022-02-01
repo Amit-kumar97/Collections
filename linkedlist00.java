@@ -12,5 +12,15 @@ public class linkedlist {
         l_list.add("China");
         l_list.add("South Korea");
       System.out.println("Linked List Content: " +l_list);
+     
+      //---------Add Items at specified position
+        l_list.add(2, "Russia");
+        l_list.add(3, "Phillipins");
+        System.out.println("L_List Content after Addition at specific index: " +l_list);
+
+        //---------Add First and Last Item
+        l_list.addFirst("First Country");
+        l_list.addLast("Last Country");
+        System.out.println("L_List Content after addition at first and last: " +l_list);
     }
 }
