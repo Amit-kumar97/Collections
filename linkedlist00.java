@@ -39,10 +39,11 @@ public class LinkedList00 {
         l_list.removeLast();
         System.out.println("Final Content after removing first and last Item: "+l_list);
 
-        //----------Iterating the linked list
+        //----------Iterating the linked list using Iterator
         ListIterator<String> itrator = l_list.listIterator();
         System.out.println("List displayed using iterator:");
-        while (itrator.hasNext()) {
+        while (itrator.hasNext()) 
+        {
             System.out.println(itrator.next());
         }
     }
