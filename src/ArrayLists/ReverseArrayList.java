@@ -4,6 +4,7 @@ import java.util.*;
 /*
 Write a Java program to reverse elements in a array list.
 */
+
 public class ReverseArrayList {
 
     public static void main(String[] args) {
@@ -18,6 +19,6 @@ public class ReverseArrayList {
         System.out.println("List before reversing :\n" + list_Strings);
 
         Collections.reverse(list_Strings);                 //-----------method for reversing the ArrayList
-        System.out.println("List after reversing :\n" + list_Strings);
+        System.out.println("List after reversing :\n" + list_Strings);         //-------Printing the Complete list
     }
 }
