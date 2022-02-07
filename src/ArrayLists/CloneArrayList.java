@@ -10,6 +10,7 @@ public class CloneArrayList {
     public static void main(String[] args) {
 
         ArrayList<String> original = new ArrayList<String>();
+        //--------ADDING VALUE TO ARRAYLIST
         original.add("Red");
         original.add("Green");
         original.add("Black");
