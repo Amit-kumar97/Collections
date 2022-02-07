@@ -13,6 +13,7 @@ You may modify and print the given array, or make a new array.
 Rearrange ([3,3,2]) -> [2,3,3]
 Rearrange(0,1,0,1,1,]) -> [0,0,1,1,1]
  */
+
 public class RearrangeArrayList {
 
     public static void main(String[] args) {
@@ -21,10 +22,10 @@ public class RearrangeArrayList {
         System.err.println("Enter the size of ArrayList:");
         int size = sc.nextInt();
         ArrayList<Integer> list = new ArrayList<Integer>();                  //---------CREATING ONJECT OF ARRAYLIST CLASS
-        while (size!=0)                                                      //---------IT WILL TAKE INPUT FROM THE USER UNTIL THE GETS FULLFILLE
+        while (size!=0)                           //---------TAKING INPUT FROM THE USER UNTIL CONDITION SATISFIED                           //---------IT WILL TAKE INPUT FROM THE USER UNTIL THE GETS FULLFILLE
         {                                                                    //---------IF CONDITION GETS FAIL THEN IT WILL COME OUT FROM WHILE LOOP
             list.add(sc.nextInt());
-            size--;                           //-----------DECREASING THE SIZE AFTER EACH ITERATION
+            size--;                   //-----------DECREASING THE SIZE AFTER EACH ITERATION
         }
 
         ArrayList<Integer> newlisteven = new ArrayList<Integer>();               //-------NEW LIST OBJECT FOR STORING EVEN NUMBERS
