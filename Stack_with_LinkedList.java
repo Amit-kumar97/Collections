@@ -7,6 +7,7 @@ public class Stack_with_LinkedList {
     {
         int data;
         Node next;
+        //---------- Constructor
         Node()
         {
             this.data = data;
