@@ -7,7 +7,7 @@ public class Stack_with_DoublyLinkedlist {
         int data;
         Node next;
         Node previous;
-
+        //--------Constructor
         Node()
         {
             this.data = data;
