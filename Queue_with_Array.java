@@ -12,6 +12,7 @@ public class Queue_with_Array {
         front = -1;
         rear = -1;
     }
+    //----------Method to check Queue is Empty or Not
     public boolean isempty()
     {
         if (front==-1)
@@ -24,6 +25,7 @@ public class Queue_with_Array {
         }
     }
 
+    //-----------Method to check Queue is Full or Not
     public boolean isfull()
     {
         if(rear==ar.length-1)
@@ -36,6 +38,7 @@ public class Queue_with_Array {
         }
     }
 
+    //----------Method to insert the values in queue i.e. enqueue
     public void enqueue(int val)
     {
         if (isfull())
@@ -54,6 +57,8 @@ public class Queue_with_Array {
             ar[rear] = val;
         }
     }
+    
+    //------------Method to reterive Values from the Queue i.e. dequeue
     public void dequeue()
     {
         if (isempty())
