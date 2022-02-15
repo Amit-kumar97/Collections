@@ -50,6 +50,12 @@ public class Queue_with_LinkedList {
         {
             System.out.println(front.data);
             front = front.next;
+            
+            //---------------if there is only one element in the queue
+            if(front==null)
+            {
+                rear = null;
+            }
         }
     }
 }
