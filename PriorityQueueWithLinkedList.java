@@ -48,7 +48,7 @@ public class PriorityQueueWithLinkedList {
         else
         {
             Node temp = front;
-            while (temp!=null && temp.next.priority<= newnode.priority)
+            while (temp.next != null && temp.next.priority <= newnode.priority)
             {
                 temp = temp.next;
             }
@@ -74,13 +74,13 @@ class PriorityQueueWithLinkedList_Test
         Node n2 = new Node(10,3);
         Node n3 = new Node(20,3);
         Node n4 = new Node(40,2);
-     //   Node n5 = new Node(50,5);
+        Node n5 = new Node(50,5);
         PriorityQueueWithLinkedList obj = new PriorityQueueWithLinkedList();
         obj.enqueue(n1);
         obj.enqueue(n2);
         obj.enqueue(n3);
         obj.enqueue(n4);
-     //   obj.enqueue(n5);
+        obj.enqueue(n5);
         obj.display();
     }
 }
