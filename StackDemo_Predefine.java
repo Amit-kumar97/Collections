@@ -18,12 +18,14 @@ public class StackDemo_Predefine {
         stack1.push("My");
         stack1.push("University");
         stack1.push("GLA");
+        System.out.println("Element at top: "+ stack1.peek());  
 
         stack2.push("DSA");
         stack2.push("With");
         stack2.push("Stack");
         stack2.push("and");
         stack2.push("Using Predefined Library.");
+        System.out.println("Element at top: "+ stack2.peek());  
         
         Stack<Integer> stack = new Stack<Integer>();
  
@@ -36,6 +38,7 @@ public class StackDemo_Predefine {
  
         //--------------Displaying the Stack
         System.out.println("Initial Stack: " + stack);
+        System.out.println("Element at top: "+ stack.peek());  
  
         //--------------Removing elements using pop() method
         System.out.println("Popped element: "+ stack.pop());
@@ -47,5 +50,6 @@ public class StackDemo_Predefine {
         
         //-----------Displaying the Stack after pop operation
         System.out.println("Stack after pop operation "+ stack);
+        System.out.println("Element at top: "+ stack.peek());  
     }
 }
