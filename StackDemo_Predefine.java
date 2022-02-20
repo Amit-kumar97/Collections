@@ -24,9 +24,28 @@ public class StackDemo_Predefine {
         stack2.push("Stack");
         stack2.push("and");
         stack2.push("Using Predefined Library.");
+        
+        Stack<Integer> stack = new Stack<Integer>();
+ 
+        //------------add elements
+        stack.push(10);
+        stack.push(15);
+        stack.push(30);
+        stack.push(20);
+        stack.push(5);
+ 
+        //--------------Displaying the Stack
+        System.out.println("Initial Stack: " + stack);
+ 
+        //--------------Removing elements using pop() method
+        System.out.println("Popped element: "+ stack.pop());
+        System.out.println("Popped element: "+ stack.pop());
 
         //------------Printing the Stack Elements
         System.out.println(stack1);
         System.out.println(stack2);
+        
+        //-----------Displaying the Stack after pop operation
+        System.out.println("Stack after pop operation "+ stack);
     }
 }
