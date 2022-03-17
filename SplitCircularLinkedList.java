@@ -3,6 +3,7 @@ package LinkedLists;
 //----------Program to Split a Circular Linked List into two parts
 
 public class SplitCircularLinkedList {
+    
     static class Node
     {
         int data;
@@ -15,7 +16,9 @@ public class SplitCircularLinkedList {
             next = null;
         }
     }
+    
     static Node head, head1, head2;
+    
     public static void splitList()
     {
         Node oddNode = head;
@@ -59,6 +62,7 @@ public class SplitCircularLinkedList {
         }
     }
 
+    
     public static void main(String args[])
     {
         SplitCircularLinkedList list = new SplitCircularLinkedList();
@@ -75,9 +79,11 @@ public class SplitCircularLinkedList {
 
         //-----------split list
         list.splitList();
+        
         System.out.println("");
         System.out.println("First Circular List");
         list.print(head1);
+        
         System.out.println("");
         System.out.println("Second Circular List");
         list.print(head2);
